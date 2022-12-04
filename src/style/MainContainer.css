@@ -1,0 +1,32 @@
+div.main{
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "header"
+        "table"
+        "form";
+    row-gap: 1em;
+    align-content: center;
+    justify-content: center;
+}
+h2{
+    color: var(--fg);
+    text-align: center;
+    grid-area: header;
+}
+table{
+    grid-area: table;
+}
+table, tr.thead > th, tr.tbody > td{
+    border: 1px solid var(--border);
+    border-collapse: collapse;
+}
+tr.thead > th{
+    background-color: var(--thead);
+    color: var(--hl);
+    padding: 1em;
+}

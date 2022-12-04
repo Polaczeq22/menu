@@ -1,0 +1,43 @@
+form.menuForm{
+    grid-area: form;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--fg);
+    background-color: var(--hl);
+    border-radius: 2em;
+    padding: 1em;
+    min-height: 35vh;
+}
+
+form.menuForm > p{
+    text-align: left;
+}
+
+form.menuForm  label{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form.menuForm #menuForm_nazwa, form.menuForm #menuForm_cena {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--fg);
+    color: var(--fg);
+    background: transparent;
+    width: 65%;
+}
+
+form.menuForm > #menuForm_send, form.menuForm > #menuForm_reset{
+    width: 100%;
+    background: transparent;
+    color: var(--fg);
+    border: none;
+}
+
+form.menuForm > #menuForm_send:hover, form.menuForm > #menuForm_reset:hover{
+    border: 1px solid var(--fg);
+}

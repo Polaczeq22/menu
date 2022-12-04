@@ -1,0 +1,17 @@
+tr.tbody > td{
+    background-color: var(--bg);
+    color: var(--fg);
+    padding: 1em;
+}
+
+td.lowest{
+    color: blue !important; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+td.highest{
+    color: red !important;
+    font-weight: bold;
+    font-style: italic;
+}
