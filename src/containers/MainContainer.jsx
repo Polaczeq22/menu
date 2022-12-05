@@ -128,7 +128,7 @@ class Main extends React.Component{
         const items = this.state.menu;
         return(
             <div className="main">
-                <h2>Michał Mikuła [20] [3F]</h2>
+                <h2>Kawiarnia</h2>
                 <table>
                     <thead>
                     <tr className="thead">
